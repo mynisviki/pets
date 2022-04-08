@@ -127,18 +127,18 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 17px;
   line-height: 130%;
   letter-spacing: 0.06em;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   color: #292929;
   text-decoration: none;
 }
 
 .button:hover {
   cursor: pointer;
-  background: #FDDCC4;
+  background-color: #FDDCC4;
 }
 
 .button_primary {
-  background: #F1CDB3;
+  background-color: #F1CDB3;
 }
 
 /*About*/
@@ -146,6 +146,7 @@ h1, h2, h3, h4, h5, h6, p {
   display: flex;
   justify-content: center;
   gap: 120px;
+  margin-bottom: 100px;
 }
 
 .about__left-column {
@@ -173,3 +174,99 @@ h1, h2, h3, h4, h5, h6, p {
   color: #4C4C4C;
   margin-top: 25px;
 }
+
+/*Our-friends*/
+.our_friends {
+  background-color: #F6F6F6;
+  padding-top: 80px;
+}
+
+.our-friends__header {
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  width: 400px;
+}
+
+.our-friends__slider {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.our-friends__cards-container {
+  display: flex;
+  gap: 90px;
+}
+
+.our-friends__button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.our-friends__button {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+/*Card*/
+.card {
+  width: 270px;
+  text-align: center;
+  background-color: #FAFAFA;
+  border-radius: 9px;
+  padding-bottom: 30px;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: #FFFFFF;
+}
+
+/* .card:hover .button {
+  background-color: #FDDCC4;
+} */
+
+.card__header {
+  display: block;
+  font-family: 'Georgia';
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/*Button-paginator*/
+.button-paginator {
+  display: inline-block;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  width: 52px;
+  height: 52px;
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.button-paginator:hover {
+  cursor: pointer;
+  background-color: #FDDCC4;
+}
+
+.button-paginator_prev {
+  background-image: url(../../assets/icons/arrow-left.svg);
+}
+
+.button-paginator_next {
+  background-image: url(../../assets/icons/arrow-right.svg);
+}
+
