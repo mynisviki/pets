@@ -12,6 +12,10 @@ body {
   box-sizing: border-box;
 }
 
+img {
+  display: block;
+}
+
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
@@ -230,9 +234,9 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #FFFFFF;
 }
 
-/* .card:hover .button {
+.card:hover .button {
   background-color: #FDDCC4;
-} */
+}
 
 .card__header {
   display: block;
