@@ -83,14 +83,20 @@ h1, h2, h3, h4, h5, h6, p {
   gap: 35px;
 }
 
+.nav__item_active {
+  border-bottom: #F1CDB3 solid 3px;
+}
+
 .nav__link {
   color: #CDCDCD;
   text-decoration: none;
 }
 
-.nav__item_active {
-  border-bottom: #F1CDB3 solid 3px;
+.nav__item_active .nav__link,
+.nav__item:hover .nav__link {
+  color: #FFFFFF;
 }
+
 
 /*Not-only*/
 .not-only {
