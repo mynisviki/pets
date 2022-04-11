@@ -459,8 +459,12 @@ h1, h2, h3, h4, h5, h6, p {
   gap: 160px;
 }
 
-.footer__left-column,
-.footer__middle-column {
+.footer__left-column {
+  margin-top: 56px;
+  display: grid;
+  align-items: center;
+  gap: 32px 160px;
+  grid-template-columns: 278px auto;
   margin-bottom: 60px;
 }
 
@@ -472,18 +476,11 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 130%;
   letter-spacing: 0.05em;
   color: #FFFFFF;
-  margin-top: 56px;
-  margin-bottom: 40px;
-}
-
-.footer__header_middle {
-  margin-bottom: 30px;
 }
 
 .footer__link {
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
   gap: 20px;
   text-decoration: none;
 }
