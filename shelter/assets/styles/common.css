@@ -347,7 +347,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .footer__link-icon_marker {
   width: 22px;
-  background-image: url(../icons/icon-marker.png)
+  background-image: url(../icons/icon-marker.svg)
 }
 
 .footer__link-text {
