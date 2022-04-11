@@ -55,6 +55,10 @@ h1, h2, h3, h4, h5, h6, p {
   align-items: center;
 }
 
+.logo {
+  text-decoration: none;
+}
+
 .logo__title {
   font-family: 'Georgia';
   font-size: 32px;
@@ -481,6 +485,7 @@ h1, h2, h3, h4, h5, h6, p {
   align-items: center;
   margin-bottom: 40px;
   gap: 20px;
+  text-decoration: none;
 }
 
 .footer__link:last-child {
