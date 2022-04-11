@@ -1,0 +1,13 @@
+.our-friends__pet-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.our-friends__pet-button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

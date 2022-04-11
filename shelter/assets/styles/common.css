@@ -139,6 +139,10 @@ h1, h2, h3, h4, h5, h6, p {
   padding-top: 80px;
 }
 
+.our_friends__container {
+  padding-bottom: 100px;
+}
+
 .our-friends__header {
   text-align: center;
   margin: 0 auto;
@@ -171,7 +175,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .our-friends__button {
   margin-top: 60px;
-  margin-bottom: 100px;
 }
 
 /*Card*/
@@ -237,11 +240,27 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center center;
+
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #292929
 }
 
-.button-paginator:hover {
+.button-paginator:hover:not(.button-paginator_disabled) {
   cursor: pointer;
   background-color: #FDDCC4;
+}
+
+.button-paginator_active {
+  background: #F1CDB3;
+}
+
+.button-paginator_disabled {
+  border-color: #CDCDCD;
 }
 
 .button-paginator_prev {
@@ -251,6 +270,23 @@ h1, h2, h3, h4, h5, h6, p {
 .button-paginator_next {
   background-image: url(../icons/arrow-right.svg);
 }
+
+.button-paginator_first-page {
+  background-image: url(../icons/first-page.svg);
+}
+
+.button-paginator_prev-page {
+  background-image: url(../icons/prev-page.svg);
+}
+
+.button-paginator_next-page {
+  background-image: url(../icons/next-page.svg);
+}
+
+.button-paginator_last-page {
+  background-image: url(../icons/last-page.svg);
+}
+
 
 /*Footer*/
 .footer {
