@@ -189,6 +189,7 @@ h1, h2, h3, h4, h5, h6, p {
 .card:hover {
   cursor: pointer;
   background-color: #FFFFFF;
+  box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
 }
 
 .card:hover .button {
@@ -259,7 +260,7 @@ h1, h2, h3, h4, h5, h6, p {
   background: #F1CDB3;
 }
 
-.button-paginator_disabled {
+.button-paginator_disabled:not(.button-paginator_active) {
   border-color: #CDCDCD;
 }
 
