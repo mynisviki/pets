@@ -27,7 +27,7 @@
   font-family: 'Georgia';
   font-size: 44px;
   font-weight: 400;
-  line-height: 130%;
+  line-height: 57px;
   color: #FFFFFF;
 }
 
@@ -95,7 +95,7 @@
   font-size: 35px;
   font-style: normal;
   font-weight: 400;
-  line-height: 130%;
+  line-height: 45px;
   letter-spacing: 0.06em;
   color: #545454;
   width: 370px;
@@ -116,6 +116,7 @@
   .about__right-column {
     width: 437px;
     margin: 80px auto 0;
+    padding-left: 3px;
   }
 
   .about__image {
@@ -134,7 +135,7 @@
   font-style: normal;
   font-size: 35px;
   font-weight: 400;
-  line-height: 130%;
+  line-height: 45px;
   letter-spacing: 0.06em;
   color: #545454;
 }
@@ -205,7 +206,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 115%;
+  line-height: 23px;
   letter-spacing: 0.06em;
   color: #545454;
 }
@@ -250,7 +251,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
-  line-height: 130%;
+  line-height: 45px;
   letter-spacing: 0.06em;
   color: #545454;
   width: 300px;
@@ -262,7 +263,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 110%;
+  line-height: 17px;
   letter-spacing: 0.06em;
   color: #545454;
 }
@@ -286,7 +287,7 @@
 .in-addition__card-number {
   font-family: 'Georgia';
   font-size: 20px;
-  line-height: 115%;
+  line-height: 23px;
   letter-spacing: 0.06em;
   color: #545454;
 }
