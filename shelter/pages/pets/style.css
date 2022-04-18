@@ -4,10 +4,48 @@
   gap: 30px 40px;
   margin-top: 60px;
   margin-bottom: 60px;
+  justify-content: center;
 }
 
 .our-friends__pet-button-container {
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+@media screen and (max-width: 1279px) {
+  .our_friends__container_pet {
+    padding-bottom: 76px;
+  }
+
+  .our-friends__pet-cards-container {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .our-friends__pet-cards-container .card:nth-last-child(1),
+  .our-friends__pet-cards-container .card:nth-last-child(2) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .our-friends__pet-cards-container {
+    margin-top: 42px;
+    margin-bottom: 42px;
+  }
+
+  .our-friends__pet-cards-container .card:nth-last-child(3),
+  .our-friends__pet-cards-container .card:nth-last-child(4),
+  .our-friends__pet-cards-container .card:nth-last-child(5) {
+    display: none;
+  }
+
+  .our-friends__pet-button-container {
+    gap: 10px;
+  }
+
+  .our_friends__container_pet {
+    padding-bottom: 42px;
+  }
 }
