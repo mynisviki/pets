@@ -28,3 +28,24 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .our-friends__pet-cards-container {
+    margin-top: 42px;
+    margin-bottom: 42px;
+  }
+
+  .our-friends__pet-cards-container .card:nth-last-child(3),
+  .our-friends__pet-cards-container .card:nth-last-child(4),
+  .our-friends__pet-cards-container .card:nth-last-child(5) {
+    display: none;
+  }
+
+  .our-friends__pet-button-container {
+    gap: 10px;
+  }
+
+  .our_friends__container_pet {
+    padding-bottom: 42px;
+  }
+}
